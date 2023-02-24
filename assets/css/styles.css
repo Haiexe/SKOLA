@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Jost', sans-serif;
+}
+
+/* Common  */
+.main-content {
+    width: 1110px;
+    max-width: calc(100% - 48px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.primary-btn {
+    height: 60px;
+    width: 200px;
+    background-color: #090761;
+    border: none;
+    border-radius: 5px;
+}
+
+/* ========================HEADER========================== */
+
+
+.header-content {
+    width: 1730px;
+    max-width: calc(1000%-48px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0 24px;
+}
+
+.header a {
+    color: #848d96;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 32px;
+}
+
+.header a:hover {
+    color: #090761;
+}
+
+/* ========================HERO========================== */
+.hero {
+    margin-top: 90px;
+}
+
+.hero .hero-left {
+    width: 46%;
+    padding: 90px 0 100px;
+}
+.hero .hero-body {
+    display: flex;
+}
+
+.hero h1 {
+    font-size: 60px;
+    line-height: 1.2;
+}
+
+.hero h1 strong {
+    color: #ffc78b;
+}
+
+.hero .sub-title {
+    margin-top: 16px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.7;
+}
+
+.hero .action {
+    margin-top: 16px;
+    display: flex;
+}
+
+.hero .action-1 {
+    background-color: white;
+    border: 1px solid  #090761;
+    margin-right: 24px;
+}
+.hero .action-2 {
+    background-color: #090761;
+    margin-right: 24px;
+}
+
+.hero .action-1:hover {
+    background-color: #090761;
+}
+
+.hero .action-2:hover {
+    background-color: #06043d;
+}
+
+.hero .action-1 a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #090761;
+    padding: 16px 20px;
+}
+
+.hero .action-2 a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    padding: 16px 20px;
+}
+
+.hero .action-1 a:hover {
+    color: #fff;
+}
+
+
+.hero .hero-img {
+    position: absolute;
+}
