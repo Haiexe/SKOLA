@@ -25,12 +25,11 @@ body {
 /* ========================HEADER========================== */
 
 
-.header-content {
+.header-content  {
     width: 1730px;
-    max-width: calc(1000%-48px);
+    max-width: calc(100%-48px);
     display: flex;
     align-items: center;
-    justify-content: space-between;
     margin-left: auto;
     margin-right: auto;
     padding: 20px 0 24px;
@@ -48,6 +47,16 @@ body {
     color: #090761;
 }
 
+.search {
+    margin-left: 32px;
+    width: 450px;height: 50px;
+    border: 1px solid #e7e7ec;
+}
+
+.header .navigation {
+    margin-left: auto;
+}
+
 /* ========================HERO========================== */
 .hero {
     margin-top: 90px;
@@ -55,7 +64,7 @@ body {
 
 .hero .hero-left {
     width: 46%;
-    padding: 90px 0 100px;
+    padding: 90px 0 124px;
 }
 .hero .hero-body {
     display: flex;
@@ -123,4 +132,187 @@ body {
 
 .hero .hero-img {
     position: absolute;
+}
+
+
+/* ========================FEATURE========================== */
+
+.features {
+    margin-top: 96px;
+    padding-top: 100px;
+    background-color: #f7f9fb;
+    padding-bottom: 72px;
+}
+
+.features .features-title {
+    color: #2f2d51;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.features .feature-sub {
+    margin-top: 16px;
+    color: #77838F;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.features .body .all-feature {
+    text-decoration: none;
+    font-size: 16px;
+    color: #090761;
+    font-weight: 600;
+    display: block;
+    margin-top: 16px;    
+    float: right;
+}
+
+.features .courses {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+
+.features .courses {
+    margin-top: 48px;
+}
+
+.features .course-item {
+    padding: 5px 5px 0;
+    border: 1px solid #E7E7EC;
+    box-shadow: 0 0.5rem 0.937rem rgb(140 152 164 / 10%)
+}
+
+.features .course-img {
+    width: 333px;
+    height: 291px;
+    object-fit: cover;
+}
+
+.course-item .course-top {
+    position: relative;
+}
+
+.features .body .course-features {
+    position: relative;
+    background-color: #B8B2FD;
+    height: 30px;
+    width: 88px;
+    border: none;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 999px;
+    display: none;
+    position: absolute;
+    left: 15px;
+    bottom: 17px;
+}
+
+.svg-icon-1 {
+    width: 36px;
+    height: 36px;
+    background-color: violet;
+    border-radius: 999px;
+    position: absolute;
+    display: none;
+    top: 15px;
+    right: 15px;
+    opacity: 0.7;
+}
+
+.features .course-teacher-avt {
+    border-radius: 999px;
+    border: 5px solid #fff;
+    position: absolute;
+    /* display: none; */
+    height: 70px;
+    width: 70px;
+    right: 25px;
+    bottom: -32px;
+}
+
+.features .course-bot .course-type {
+    margin-top: 20px;
+    color: #77838F;
+    font-size: 16px;
+}
+
+.features .course-bot .course-information {
+    width: 319px;
+    height: 135px;
+    margin-top: 20px;
+    padding: 0 10px;
+}
+
+.features .course-bot .course-information .price-before {
+    text-decoration: line-through;
+    font-size: 16px;
+    color: #77838F;
+    font-weight: 400;
+}
+
+.features .course-bot .course-name {
+    color: #2f2d51;
+    font-size: 20px;
+    font-weight: 00;
+}
+
+.features .course-bot .course-rate {
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #77838F;
+}
+
+.features .course-bot .price-before {
+    margin-top: 8px;
+    float: right;
+}
+
+.features .course-information .course-info {
+    display: flex;
+    margin-top: 35px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #77838F;
+}
+
+.features .course-info .course-lesson,
+.features .course-info .course-time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.features .svg-icon {
+    margin-right: 10px;
+}
+
+.features .course-price {
+    font-size: 20px;
+    color: #2f2d51;
+    font-weight: 500;
+}
+
+.features .scroll {
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+}
+
+.features .scroll-item {
+    height: 8px;
+    width: 8px;
+    border-radius: 999px;
+    background-color: #77838F;
+    margin-right: 10px;
+}
+
+.features .scroll-item.active{
+    width: 20px;
+    background-color: #090761;
 }
