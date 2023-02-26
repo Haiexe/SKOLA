@@ -476,7 +476,7 @@ body {
     margin-top: 25px;
     color: #77838F;
     font-size: 16px;
-    line-height: 16px;
+    line-height: 24px;
 }
 
 .collab .body {
@@ -493,4 +493,115 @@ body {
 
 .collab .content svg {
     height: 34px;
+}
+
+/* ============================EVENT=========================== */
+.event {
+    margin: 100px 0 125px;
+}
+
+.event h2 {
+    color: #2f2d51;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.event .event-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.event .event-row .event-sub {
+    margin-top: 16px;
+    color: #77838F;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.event .event-row .all-event {
+    margin-top: 16px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #090761;
+    font-weight: 600;
+}
+
+.event .event-table {
+    margin-top: 45px;
+}
+
+.event .event-table .event-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.event .event-content .event-item {
+    width: 48.5%;
+    border: 1px solid #e7e7ec;
+    box-shadow: 0 0.5rem 0.937rem rgb(140 152 164 / 10%);
+    border-radius: 5px;
+    display: flex;
+    padding: 8px 50px 8px 8px;
+    margin-bottom: 32px;
+}
+
+.event .event-content .event-item{
+    transition: 0.3s ease;
+}
+
+.event .event-content .event-item:hover {
+    transform: translateY(-5px);
+}
+
+.event .event-item .event-img {
+    width: 150px;
+    height: 140px;
+    object-fit: cover;
+}
+
+.event .event-item .event-img:hover {
+    cursor: pointer;
+}
+
+.event .event-item .event-infor {
+    margin-left: 22px;
+}
+
+.event .event-item .event-infor .event-date {
+    width: 100px;
+    height: 32px;
+    background-color: #ffc78b;
+    color: #fff;
+    border-radius: 999px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.event .event-item .event-infor a {
+    display: block;
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-decoration: none;
+    color: #2f2d51;
+}
+
+.event .event-item .event-time {
+    display: flex;
+    align-items: center;
+}
+
+.event .event-item .event-time svg{
+    margin-right: 10px;
+}
+
+.event .event-item .event-time {
+    margin-top: 6px;
+    color: #77838F;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
 }
