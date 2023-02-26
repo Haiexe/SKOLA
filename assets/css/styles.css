@@ -298,13 +298,13 @@ body {
     font-weight: 500;
 }
 
-.features .scroll {
+.scroll {
     margin-top: 55px;
     display: flex;
     justify-content: center;
 }
 
-.features .scroll-item {
+.scroll-item {
     height: 8px;
     width: 8px;
     border-radius: 999px;
@@ -312,7 +312,7 @@ body {
     margin-right: 10px;
 }
 
-.features .scroll-item.active{
+ .scroll-item.active{
     width: 20px;
     background-color: #090761;
 }
@@ -397,4 +397,99 @@ body {
     font-weight: 400;
     color: #77838f;
     margin-bottom: 26px;
+}
+
+/* ============================COMMENT========================== */
+.comment {
+    padding-top: 100px;
+    padding-bottom: 45px;
+    background-color: #f7f9fb;
+}
+
+.comment h2:first-child{
+    text-align: center;
+}
+
+.comment .comment-sub{
+    text-align: center;
+}
+
+.comment h2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 35px;
+    font-weight: 500;
+    color: #2f2d51;
+}
+
+.comment .comment-sub {
+    margin-top: 16px;
+    font-size: 18px;
+    color: #77838F;
+}
+
+.comment .comment-people {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.comment .comment-people .comment-item {
+    width: 32%;
+    border: 2px solid #edeff3;
+    box-shadow: 0 0.5rem 0.937rem rgb(140 152 164 / 10%);
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 36px 38px;
+}
+
+.comment .comment-author .author-pic {
+    border-radius: 999px;
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+}
+
+.comment .comment-author {
+    display: flex;
+    align-items: center;
+}
+
+.comment .comment-author .author-info {
+    margin-left: 22px;
+}
+
+.comment .author-info .author-name {
+    font-size: 18px;
+    font-weight: 500;
+    color: #2f2d51;
+}
+
+.comment .author-info .author-job {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #77838F;
+}
+
+.comment .author-speak {
+    margin-top: 25px;
+    color: #77838F;
+    font-size: 16px;
+}
+
+.collab .body {
+    margin-top: 70px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.collab .body .content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.collab .content svg {
+    height: 34px;
 }
